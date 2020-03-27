@@ -11,6 +11,10 @@ const showMessage = (e) => {
 
     passwords.forEach((pass, index) => {
 
+        // let passConverted = pass.toLowerCase();
+        // let inputConverted = input.value.toLowerCase();
+
+
         if (pass.toLocaleLowerCase() === input.value.toLocaleLowerCase()) {
             div.textContent = messages[index];
 
